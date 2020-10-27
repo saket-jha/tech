@@ -34,6 +34,14 @@ div.b{
   
 }
 
+p.b{
+  width: 80%;
+  border: black;
+  border-color: black;
+  word-wrap: break-word;
+  
+}
+
 .bold{
   font-size: larger;
 }
