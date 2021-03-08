@@ -4,6 +4,13 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css" />
         <title>शुभ विवाह</title>
+
+        <script>
+            function msg() {
+            document.getElementById("videoSnds").innerHTML= "एखन धरि वीडियो अपलोड नहि भऽ सकल अछि |"
+        }
+        </script>
+
     </head>
 
     <body>
@@ -16,7 +23,7 @@
         </marquee>
 
         <center>
-            <img src="./img/Sneha.gif" class="img-fluid">
+            <img src="./img/Sneha.gif">
         </center>
 
         <h1>
@@ -28,7 +35,20 @@
             <input type="button" id="mac64" onclick="window.location.href= 'https://wa.me/+918568803459';" value="WhatsApp Your Email Id" class="btn" />
        </center>
 
+       <h1>
+         To Download the Images or Video Click below:
+       </h1>
 
+       
+
+       <input type="button" id="mac64" onclick="window.location.href= 'https://drive.google.com/drive/folders/19EYsWtmlpHfZavpbdhxEABqE_BOmT9Px?usp=sharing';" value="View/Download Images" class="btnOrange" /> <br><br><br>
+
+       <input type="button" id="mac64" onclick="msg()" value="Watch/Download Video" class="btnOrange" />
+
+
+       <div id="videoSnds"></div>
+
+       
 
     </body>
 </html>

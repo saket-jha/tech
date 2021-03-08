@@ -20,6 +20,18 @@ input.btn{
 
 }
 
+input.btnOrange{
+  width: auto;
+  height: 70px;
+  margin-left: 60px;
+  scroll-margin-top: 50px;
+  border-radius: 5px;
+  color: white;
+  background-color: #fc8b40; 
+  font-size: xx-large;
+
+}
+
 marquee{
   color: white;
   font-size: larger;
