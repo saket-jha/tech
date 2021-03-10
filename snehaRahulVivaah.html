@@ -7,8 +7,13 @@
 
         <script>
             function msg() {
-            document.getElementById("videoSnds").innerHTML= "एखन धरि वीडियो अपलोड नहि भऽ सकल अछि |"
+            document.getElementById("videoSnds").innerHTML= "एखन धरि सभटा वीडियो अपलोड नहि भऽ सकल अछि |"
+            document.getElementById("video").style.display = 'block';
+            window.location.href="#video";
         }
+
+        
+
         </script>
 
     </head>
@@ -45,8 +50,17 @@
 
        <input type="button" id="mac64" onclick="msg()" value="Watch/Download Video" class="btnOrange" />
 
+       <br>
+       <br>
 
-       <div id="videoSnds"></div>
+       <div id="video" style="display: none;">
+            <img src="./img/snehaVivaah1.jpg" width="320" height="240" align="left" style="margin-right: 10px;" > 
+            <input type="button" onclick="window.location.href='https://drive.google.com/file/d/13zlaQHz-KblKDm1Qry2Rc2qf26LqXZKr';" value="Download" class="btn" />
+       </div>
+
+    
+
+       <div id="videoSnds" style="font-size: larger; color: chocolate;"></div>
 
        
 
